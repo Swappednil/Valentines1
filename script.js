@@ -121,7 +121,7 @@ yesBtn.addEventListener("click", () =>{
 
     document.body.style.backgroundImage = "url('hrt.jpg')";
 
-    title.textContent = "Type shi!";
+    title.textContent = "YIP- ahem type shi!";
 
     catImg.style.display = "none"; //src= "cat_dance.gif";
 
