@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Valentine Letter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<!-- Background Song -->
+<audio id="bg-music" src="adores.mp3" loop></audio>
+
+<!-- Sound Effects -->
+<audio id="whoosh" src="whoo.mp3"></audio>
+<audio id="whoosh2" src="shh.mp3"></audio>
+
+<!-- Multiple NO click sounds -->
+<audio id="no1" src="among.mp3"></audio>
+<audio id="no2" src="vine.mp3"></audio>
+<audio id="no3" src="fah.mp3"></audio>
+<audio id="no4" src="under.mp3"></audio>
+<audio id="no5" src="nig.mp3"></audio>
+
+<body>
+    <!--Envelope Screen -->
+    <div id = "envelope-container">
+        <img src="envelope.png" alt="Envelope" id="envelope" />
+        <p>ꨄ Letter for Youꨄ </p>
+    </div>
+
+    <!--Letter Screen -->
+    <div id="letter-container">
+        <div class="letter-window">
+            <h1 id="letter-title">Will you be my Valentine</h1>
+
+            <img src="cat_heart.gif" class="cat" id="letter-cat"/>
+            <div class="cat2" id="letter2-cat" style="display:none;">
+                <img src="break.gif" class="orngcat" alt="Orng"/>
+
+                <div class="yes-wrapper">
+                    <img src="cat_dance.gif" class="blackCat" alt="Black"/>
+                </div>
+            </div>
+            <div class="buttons" id="letter-buttons">
+                <img src="yes.png" class="btn yes-btn" alt="Yes"/>
+
+                <div class="no-wrapper">
+                    <img src="no.png" class="btn no-btn" alt="No"/>
+                </div>
+            </div>
+            <p id ="final-text" class="final-text" style ="display:  none">
+                <strong>Valentine Date:</strong> Dinner at 6pm!
+            </p>
+        </div>
+    </div>
+
+    <script src = "script.js"></script>
+</body>
+</html>
