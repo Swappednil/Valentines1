@@ -14,6 +14,7 @@ const finalText = document.getElementById("final-text");
 const bgMusic = document.getElementById("bg-music");
 const whoosh = document.getElementById("whoosh");
 const whoosh2 = document.getElementById("whoosh2");
+const click = document.getElementById("click");
 
 const noSounds = [
     document.getElementById("no1"),
@@ -115,8 +116,9 @@ noBtn.addEventListener("click", ()=> {
 
 yesBtn.addEventListener("click", () =>{
 
+    click.play();
     bgMusic.play();
-    bgMusic.volume = 0.8;
+    bgMusic.volume = 0.9;
 
 
     document.body.style.backgroundImage = "url('hrt.jpg')";
