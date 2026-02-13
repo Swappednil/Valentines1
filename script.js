@@ -81,8 +81,8 @@ noBtn.addEventListener("click", () => {
 //Logic to make NO btn run
 
 noBtn.addEventListener("mouseover", ()=> {
-    const min = 100;
-    const max = 100;
+    const min = 80;
+    const max = 80;
 
     const distance = Math.random() * (max - min) + min;
     const angle = Math.random() * Math.PI *2;
